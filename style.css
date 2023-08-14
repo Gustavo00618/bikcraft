@@ -8,8 +8,20 @@ body {
   margin-top: 50px;
 }
 
+.header {
+  display: grid;
+  justify-items: center;
+  gap: 50px;
+}
+
 img {
   max-width: 100%;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
 }
 
 a {
@@ -36,6 +48,7 @@ p {
 }
 
 .menu a {
+  display: block;
   background: rgb(32, 178, 214);
   padding: 15px 30px;
   border-radius: 4px;
